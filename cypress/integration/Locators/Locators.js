@@ -1,6 +1,8 @@
 class locatorsPage{
 
     url="https://khatabook.com/";
+    
+
     joinUs=".MuiList-root > :nth-child(5) > .MuiTypography-root";
     toogleMenubar=".navbar-toggler-icon";
    // login=".nav-link > button"
@@ -40,8 +42,17 @@ class locatorsPage{
    apply=":nth-child(1) > .card-body > .btn";
 
    //------------------ Login --------------------------------------
-  
+ 
   LoginNav=".nav-link > button"
+ // countrySelected='//*[@id="country-select-demo"]';
+  countrySelected='(//button[@type="button"])[1]';
+  //countrySelected='[@id="root"]/div/div/div[2]/div/div[1]/form/div[2]/div/div/button/span';
+
+  //------------------- contact us----------------------------------
+
+  ContactNav=":nth-child(7) > .MuiTypography-root";
+  facebook=".col-sm-3 > .list-unstyled > :nth-child(1) > a";
+  twitter=".col-sm-3 > .list-unstyled > :nth-child(2) > a";
 
 
 }
